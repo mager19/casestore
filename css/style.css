@@ -1,0 +1,141 @@
+
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+/* ---------------------------------------------------------------------- */
+
+@import url("../css/normalize.css");
+
+/* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
+@import url("../css/bootstrap/bootstrap.css");
+@import url("../css/bootstrap/bootstrap-theme.css");
+
+/* Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+/* Owl Carousel */
+/*@import url("../css/owl.carousel.css");*/
+/* Font Awesome */
+@import url("../css/font-awesome.min.css");
+/* Animate and more*/
+/*@import url("../css/animate.css");*/
+/*@import url("../css/bootstrap-lightbox.css");*/
+
+
+/* ESTILOS GENERALES*/
+
+
+body{
+	
+	line-height:30px;
+	color:#4d4d4d;
+	background: #fff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+a{	
+	color: #232323;
+	letter-spacing: 1px;
+	font-weight: 400;
+
+}
+
+p{
+	
+	color:#33454E;
+	line-height: 27px;
+	font-weight:300;
+	color: #9a9a9a;
+	word-wrap: break-word;
+	font-size: 1.2em;
+}
+h1 {color:#4d4d4d;
+	font-size:2em;
+	font-weight: 700;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+
+
+h2 {
+	
+	color:#b91e1f;
+	font-size: 1.8em;
+	font-weight: 200px;
+	
+
+}
+
+
+
+h3 {
+
+	font-size:.1.5em;
+	color:#14C3A2;
+	padding-bottom: 0.4em;
+}
+h4 {font-size:16px;}
+h5 {font-size:14px;}
+h6 {font-size:12px;}
+
+
+img{
+	max-width: 100%;
+}
+.clearfix{
+	width:1px;
+	height:1px;	
+	display:block;
+	clear:both;
+	content:" , ";
+}
+
+
+.contenedor{
+
+	padding: 4em 0em;
+}
+
+/*Header*/
+
+header{
+
+	background-color: #fff;
+	padding:1em 0;
+}
+
+header nav ul{
+
+	margin-top: 1em;
+}
+
+header nav ul li{
+
+	display: inline-block;
+	list-style: none;
+	margin-right: 2em;
+}
+
+#principal ul li a{
+
+	color:#ca101a;
+	font-size: 1.2em;
+	font-weight: 600;
+
+}
+
+#registrate{
+
+	background-color: #ca101a;
+	border-radius: 5px;
+	padding: 0.3em 0.8em;
+	
+}
+#registrate a{
+
+	color:#f9f9f9!important;
+}
