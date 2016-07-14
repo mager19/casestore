@@ -15,7 +15,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 
 /* Owl Carousel */
-/*@import url("../css/owl.carousel.css");*/
+@import url("../css/owl.carousel.css");
+@import url("../css/owl.theme.default.min.css");
 /* Font Awesome */
 @import url("../css/font-awesome.min.css");
 /* Animate and more*/
@@ -138,4 +139,177 @@ header nav ul li{
 #registrate a{
 
 	color:#f9f9f9!important;
+}
+
+
+/*Slide*/
+
+#slide{
+
+	background-image: url(../img/slide1.jpg);
+	background-position: center;
+	color:#f9f9f9;
+	padding: 10em 0;
+}	
+
+#slide h1{
+
+	color:#f9f9f9;
+}
+
+
+/*Franjaroja*/
+
+#franja_roja{
+
+	background-color:#8e2124;
+	padding: 2em;
+}
+
+
+/*Products*/
+
+.item_products{
+
+	-webkit-box-shadow: 0px 1px 5px -1px rgba(145,140,145,1);
+	-moz-box-shadow: 0px 1px 5px -1px rgba(145,140,145,1);
+	box-shadow: 0px 1px 5px -1px rgba(145,140,145,1);
+
+	padding:0 1em;
+}
+
+.spinner {
+  width: 100px;
+}
+.spinner input {
+  text-align: right;
+}
+.input-group-btn-vertical {
+  position: relative;
+  white-space: nowrap;
+  width: 1%;
+  vertical-align: middle;
+  display: table-cell;
+}
+.input-group-btn-vertical > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  margin-left: -1px;
+  position: relative;
+  border-radius: 0;
+}
+.input-group-btn-vertical > .btn:first-child {
+  border-top-right-radius: 4px;
+}
+.input-group-btn-vertical > .btn:last-child {
+  margin-top: -2px;
+  border-bottom-right-radius: 4px;
+}
+.input-group-btn-vertical i{
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
+
+
+.item_products h3{
+
+	color:#232323;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.agregar, .cantidad{
+
+	background-color: #8e2124;
+
+}
+
+
+
+/* clientes */
+
+#clientes{
+
+	background-color:#8e2124;
+	padding: 2em 0;
+	text-align: center!important;
+	
+}
+
+
+#clientes h3{
+
+	color:#f9f9f9;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#clientes img{
+	
+	border-radius: 50%;
+	margin-left: 43%;
+	margin-top: 1em;
+	text-align: center;
+	width: 14%!important;
+}
+
+#clientes p{
+
+	color:#f9f9f9;
+	margin-left: 20%;
+	margin-top: 1em;
+	width: 60%;
+
+}
+
+#clientes span{
+
+	color:#f9f9f9;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+
+/*Marcas*/
+
+#marcas{
+
+	background-color: #fff;
+}
+
+#marcas h3{
+
+	color:#8e2124;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+#marcas img{
+	
+	margin-top: 1em;
+	
+}
+
+
+/*footer*/
+
+#footer{
+
+	background-color:#8e2124;
+}
+
+#footer ul li{
+
+	
+	list-style: none;
+	text-decoration: underline;
+}
+
+#footer ul li a{
+
+	color:#f9f9f9;
 }
