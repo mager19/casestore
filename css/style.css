@@ -411,3 +411,93 @@ header nav ul li{
 	margin-top: 1em;
 	text-transform: uppercase;
 }
+
+
+/*Modal*/
+
+.modal-content {
+    
+    border-radius: 0px;
+}
+
+.modal-dialog{
+
+    margin: 27px auto;
+	width: 25%;
+}
+
+.modal-header{
+
+	border: none;
+}
+
+.modal-body{
+
+	text-align: center;
+}
+
+.ancho{
+	
+	margin-top: 2em;
+	width: 100%;
+}
+
+.ancho input{
+	
+	border:2px solid #ccc;
+	border-radius: 3px;
+	padding: 0.5em 0;
+	margin-bottom: 1em;
+	width: 45%;
+}
+
+.ancho img{
+
+	margin-right: 1em;
+}
+
+.ancho input[type="text"] {
+
+	color:#8e2124;
+    font-weight:400;
+    margin-top: 5px;
+    padding-left: 1em;
+}
+
+.ancho p{
+
+    font-size: 0.9em;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-top: 1.5em;
+    margin-left: 28%;
+}
+
+.ingresa{
+
+	margin-top: 1.5em;
+}
+
+.ingresa a{
+
+	background-color: #8e2124;
+	border-radius: 3px;
+	color:#f9f9f9;
+	padding: 1em 7em;
+	margin-top: 2em;
+}
+
+.facebook{
+
+	margin-top:1.5em;
+	margin-bottom: 4em;
+}
+.facebook a{
+
+	background-color: #365899;
+	border-radius: 3px;
+	color:#f9f9f9;
+	padding: 1em 3em;
+	margin-top: 2em;
+
+}
