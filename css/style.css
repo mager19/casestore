@@ -171,11 +171,13 @@ header nav ul li{
 
 .item_products{
 
+	
 	-webkit-box-shadow: 0px 1px 5px -1px rgba(145,140,145,1);
 	-moz-box-shadow: 0px 1px 5px -1px rgba(145,140,145,1);
 	box-shadow: 0px 1px 5px -1px rgba(145,140,145,1);
+	padding: 0em 0;
 
-	padding:0 1em;
+	
 }
 
 .spinner {
@@ -214,6 +216,19 @@ header nav ul li{
   left: 4px;
 }
 
+.btn-default{
+
+	
+	border-radius: 0px;
+
+}
+
+
+#products > div > div > div:nth-child(1) > div > div.col-md-6.cantidad > div > input{
+
+	text-align: center;
+}
+
 
 .item_products h3{
 
@@ -223,9 +238,36 @@ header nav ul li{
 }
 
 .agregar, .cantidad{
-
+	
 	background-color: #8e2124;
+	color:#f9f9f9;
+	
+}
 
+.cantidad{
+
+	padding: 0.5em 0.6em;
+	text-align: center;
+}
+
+.agregar{
+	
+	color:#f9f9f9;
+	padding: 10px 1em;
+}
+
+.agregar a{
+
+	color:#f9f9f9;
+}
+
+.precio p{
+
+	color:#232323;
+	font-weight: 700;
+	font-size: 1.2em;
+	margin-top: 0.5em;
+	text-align: center;
 }
 
 
@@ -300,16 +342,72 @@ header nav ul li{
 #footer{
 
 	background-color:#8e2124;
+	padding: 3em 0;
+}
+
+#footer p{
+
+	color:#f9f9f9;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+#email{
+
+	color:#f9f9f9;
+	font-weight: 300;
+	margin-left: 1.5em;
+	text-align: center;
+}
+
+
+#footer p i{
+
+	margin:0 0.5em;
 }
 
 #footer ul li{
 
-	
 	list-style: none;
+	margin-bottom: 1em;
 	text-decoration: underline;
 }
 
 #footer ul li a{
 
 	color:#f9f9f9;
+}
+
+#footer h4{
+
+	color: #f9f9f9;
+	margin-top: 2em;
+	text-align: center;
+}
+
+#footer form{
+
+	text-align: center;
+}
+
+#footer input[type="text"] {
+
+	color:#8e2124;
+    font-weight:800;
+    margin-top: 5px;
+}
+
+#footer input.placeholder {
+    
+    
+    text-align: center;
+}
+
+#footer input[type="submit"]{
+
+	background-color: #2d0d10;
+	border: 0px;
+	color:#f9f9f9;
+	margin-top: 1em;
+	text-transform: uppercase;
 }
