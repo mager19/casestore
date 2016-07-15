@@ -464,6 +464,14 @@ header nav ul li{
     padding-left: 1em;
 }
 
+.ancho input[type="password"] {
+
+	color:#8e2124;
+    font-weight:400;
+    margin-top: 5px;
+    padding-left: 1em;
+}
+
 .ancho p{
 
     font-size: 0.9em;
@@ -500,4 +508,58 @@ header nav ul li{
 	padding: 1em 3em;
 	margin-top: 2em;
 
+}
+
+@media screen and (max-width: 1440px) {
+
+	#principal{
+
+		margin-left: -5%;
+	}
+
+	header nav ul li {
+        margin-right: 1em;
+	}
+
+	#principal ul li a {
+    
+    	font-size: 1.1em;
+    	
+	}
+
+	body > header > div > div > div > div.col-md-offset-2.col-md-2{
+
+		margin-left: 9%;
+	}
+
+	.modal-dialog {
+    	margin: 27px auto;
+    	width: 30%;
+	}
+
+}
+
+@media screen and (max-width: 1366px) {
+
+	#principal ul li a {
+  	 	 font-size: 1em;
+	}	
+
+	.modal-dialog {
+    	margin: 27px auto;
+    	width: 34%;
+	}
+
+}
+
+
+@media screen and (max-width: 1280px) {
+	header nav ul li {
+   	 	margin-right: 0.5em;
+	}
+
+	.modal-dialog {
+    	margin: 27px auto;
+    	width: 38%;
+	}
 }
