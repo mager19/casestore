@@ -114,6 +114,7 @@ img{
 
 .nav-collapse{
 
+	display: none!important;
 	text-align: center;
 
 }
@@ -645,6 +646,9 @@ header nav ul li{
 
 }
 
+
+
+
 @media screen and (max-width: 1440px) {
 
 	#principal{
@@ -701,6 +705,8 @@ header nav ul li{
 
 @media screen and (max-width:1024px) {
 	
+	
+
 	.btn {
     	display: inline-block;
     	padding: 6px 5px;
@@ -733,6 +739,13 @@ header nav ul li{
 
 @media screen and (max-width:768px) {
 
+	.nav-collapse{
+
+		display: block!important;
+		text-align: center;
+
+	}
+	
 	#slide{
 
 		display: none;
