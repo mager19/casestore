@@ -705,7 +705,24 @@ header nav ul li{
 
 @media screen and (max-width:1024px) {
 	
-	
+	.nav-collapse{
+
+		display: block!important;
+		text-align: center;
+
+	}
+
+	.logo img{
+
+    	margin-left: 40%;
+    	margin-top: -5em;
+		width: 100%;
+	}
+
+	#principal{
+
+		display: none;
+	}
 
 	.btn {
     	display: inline-block;
@@ -739,22 +756,14 @@ header nav ul li{
 
 @media screen and (max-width:768px) {
 
-	.nav-collapse{
 
-		display: block!important;
-		text-align: center;
 
-	}
-	
 	#slide{
 
 		display: none;
 	}
 
-	#principal{
 
-		display: none;
-	}
 
 	.logo img{
 
@@ -805,3 +814,27 @@ header nav ul li{
 }
 
 
+
+@media screen and (max-width:480px) {
+
+
+
+	#slide{
+
+		display: none;
+	}
+
+
+
+	.logo img{
+
+    	margin-left: 25%;
+    	margin-top: -5em;
+		width: 50%;
+	}
+
+	#footer p {
+        font-size: 1.1em;
+	}
+
+}
