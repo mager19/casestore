@@ -843,4 +843,9 @@ header nav ul li{
        	width: 90%;
 	}
 
+	#email {
+    
+    	margin-left: 1px;
+    }
+
 }
