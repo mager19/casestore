@@ -250,6 +250,11 @@ header nav ul li{
 	padding: 2em;
 }
 
+#franja_roja h3{
+
+	color:#f9f9f9;
+}
+
 
 /*Products*/
 
@@ -646,7 +651,47 @@ header nav ul li{
 
 }
 
+/* HISTORIA */
 
+#historia h4{
+	
+	color:#8e2124;
+	font-size: 2em;
+	text-align: center;
+}
+
+#historia p{
+
+	margin-top: 1em;
+	padding: 0 1em;
+}
+
+#registro{
+
+	background-image: url("../img/registro.jpg");
+	background-position: center;
+	text-align: center;
+}
+
+#registro h3{
+
+	color:#f9f9f9;
+	font-size: 2.5em;
+}
+
+#registro p{
+
+	color:#fff;
+	font-size: 1.5em;
+	margin-bottom: 1.5em;
+}
+
+#registro a{
+
+	border: 2px solid #f9f9f9;
+	color:#f9f9f9;
+	padding: 0.5em 2em;
+}
 
 
 @media screen and (max-width: 1440px) {
