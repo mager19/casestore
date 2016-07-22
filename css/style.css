@@ -693,6 +693,57 @@ header nav ul li{
 	padding: 0.5em 2em;
 }
 
+/*  Contacto */
+
+#contacto input{
+	
+	border:1px solid #8e2124;
+	border-radius: 3px;
+	color:#8e2124;
+	margin-left: 15%;
+	margin-bottom: 1em;
+	padding: 0.5em 1em;
+	padding-left: 1em;
+	width: 70%;
+}
+
+#contacto input::-webkit-input-placeholder{
+  color: #8e2124;
+  font-weight: 500;
+}
+
+#contacto input::-moz-input-placeholder{
+  color: #8e2124;
+  font-weight: 500;
+}
+
+#contacto > div > div > div > div.col-md-7.col-xs-12 > form > textarea{
+
+	border:1px solid #8e2124;
+	border-radius: 3px;
+	color:#8e2124;
+	margin-left: 15%;
+	margin-bottom: 1em;
+	padding-left: 1em;
+	width: 70%;
+}
+
+#contacto > div > div > div > div.col-md-7.col-xs-12 > form > textarea::-webkit-input-placeholder{
+
+	color: #8e2124;
+ 	font-weight: 500;
+}
+
+
+#contacto input[type="submit"]{
+
+	background-color: #8e2124;
+	color:#f9f9f9;
+	border: none;
+
+}
+
+
 
 @media screen and (max-width: 1440px) {
 
@@ -854,6 +905,16 @@ header nav ul li{
 	.input-number{
 
 		text-align: center;
+	}
+
+	#contacto img{
+
+		display: none;
+	}
+
+	#contacto form{
+
+		margin-top: 2em;
 	}
 
 }
