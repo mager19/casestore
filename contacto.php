@@ -32,7 +32,7 @@ $headers = 'From: '.$email_from."\r\n".
 
 echo "<script language='javascript'>
 alert('Mensaje enviado, Gracias.');
-window.location.href = ' ';
+window.location.href = 'https://mager19.github.io/casestore';
 </script>";
 }
 ?>
